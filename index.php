@@ -3,7 +3,6 @@
 	require_once 'vendor/autoload.php';
 
 	$api = new \InstagramAPI\Instagram(false);
-	$pdo = new PDO("mysql:host=localhost;dbname=instabots","root","123456");
 	try {
 		
 		$logUsername = readline("Please enter your username: ");
